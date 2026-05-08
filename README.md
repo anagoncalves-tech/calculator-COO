@@ -11,9 +11,7 @@ O projeto possui visual premium responsivo, suporte a tema claro/escuro e compar
 
 ---
 
-# ✨ Preview
-
-## Funcionalidades
+# ✨ Funcionalidades
 
 ✅ Cálculo real de distância via API pública  
 ✅ Comparativo entre meios de transporte  
@@ -25,6 +23,8 @@ O projeto possui visual premium responsivo, suporte a tema claro/escuro e compar
 ✅ Inputs inteligentes com sugestões  
 ✅ Seleção única de modal de transporte  
 ✅ Cards comparativos dinâmicos  
+✅ Deploy automático com GitHub Actions  
+✅ Publicação via GitHub Pages  
 
 ---
 
@@ -36,6 +36,8 @@ O projeto possui visual premium responsivo, suporte a tema claro/escuro e compar
 - OpenStreetMap
 - Nominatim API
 - OSRM API
+- GitHub Actions
+- GitHub Pages
 
 ---
 
@@ -44,7 +46,9 @@ O projeto possui visual premium responsivo, suporte a tema claro/escuro e compar
 ```bash
 carbon-calculator/
 │
-├── index.html
+├── .github/
+│   └── workflows/
+│       └── deploy.yml
 │
 ├── css/
 │   └── style.css
@@ -57,4 +61,5 @@ carbon-calculator/
 │   ├── ui.js
 │   └── app.js
 │
+├── index.html
 └── README.md
