@@ -1,4 +1,4 @@
-# 🌱 Calculadora de Emissão de CO2
+# 🌱 Calculadora de Emissão de CO₂
 
 Uma aplicação web moderna para cálculo de emissão de CO₂ baseada em:
 
