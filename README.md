@@ -41,6 +41,21 @@ O projeto possui visual premium responsivo, suporte a tema claro/escuro e compar
 
 ---
 
+# 🔮 Melhorias Futuras
+
+- Integração com Google Maps
+- Histórico de rotas
+- Dashboard de estatísticas
+- Exportação PDF
+- Gráficos de emissão
+- Progressive Web App (PWA)
+- Login de usuários
+- Ranking ecológico
+- Cache de rotas
+- API própria
+
+---
+
 # 📁 Estrutura do Projeto
 
 ```bash
@@ -63,3 +78,5 @@ carbon-calculator/
 │
 ├── index.html
 └── README.md
+
+
